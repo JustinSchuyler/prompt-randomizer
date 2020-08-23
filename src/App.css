@@ -1,5 +1,36 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+#canvas {
+  position: absolute;
+  height: 100vh;
+}
+
+.category-selector {
+  z-index: 2;
+  padding: 0 115px;
+}
+
+.category-selector button {
+  width: 150px;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: transparent;
+}
+
+.category-selector button:hover {
+  background-color: rgba(216, 216, 216, 0.7);
+  cursor: pointer;
+}
+
+.category-selector button:focus {
+  outline: none;
 }
 
 .App-logo {
